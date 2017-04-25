@@ -9,6 +9,7 @@
 	<div class="container">
 		<div class="wrapper">
 			<? include "header.php" ?>
+			<? include "footer.php" ?>
 		</div>
 	</div>
 </body>
