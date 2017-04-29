@@ -1,16 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
 	<meta charset="UTF-8">
 	<title>NewShop</title>
+	<link rel="stylesheet" href="https://necolas.github.io/normalize.css/latest/normalize.css">
 	<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-	<div class="container">
-		<div class="wrapper">
-			<? include "header.php" ?>
-			<? include "footer.php" ?>
-		</div>
-	</div>
+	<? include "header.php" ?>
+
+
+
+
+
+
+
+
+
+
+
 </body>
+
 </html>
