@@ -9,10 +9,12 @@ body {
 .container {
     width: 960px;
 	margin: 0 auto;
+	height: 100%;
 }
 .wrapper {
-	vertical-align: middle;
-	height: 300px;
+	vertical-align: top;
+	height: 200px;
+	position: absolute;
 }
 
 /* HEADER */
@@ -80,23 +82,33 @@ body {
 	font-size: 30px;
 	padding-top: 5px;
 	font-family: 'Baloo', cursive;
+	padding-bottom: 10px;
+	text-align: center;
 }
 
 .goods-box {
-	
+	width: 960px;
 }
 
+.goods-box__pictures {
+	display: flex;
+	flex-direction: row;
+	width: 960px;
+}
 
 .goods-box__image {
-	width: 200px;	
-	margin: 10px 10px 0 0;
-	float: left;
+	width: 100%;	
 	display: inline-block;
+	box-sizing: border-box;
 }
 
 .goods-box__text {
+	width: 100%;	
 	font-family: sans-serif;
-	display: inline-block;
+	text-align: justify;
+	overflow-x: hidden;	
+	line-height: 20px;
+	
 }
 
 
@@ -104,20 +116,38 @@ body {
 	
 }
 
+.goods-box__price-first {
+	display: flex;
+}
 
 
 
 
+.goods-box__table-description {
+	vertical-align: top;
+	width: 960px;
+}
 
 
+.data__button-fix-price {
+	width: 25%
+}
 
+.data__table-description {
+	width: 50%;
+}
 
+.data__button-to-order {
+	width: 25%;
+	text-align: right;
+}
 
+td {
+	vertical-align: middle;
+}
 
-
-
-
-
-
+.button-to-order {
+	width: 200.61px;
+}
 
 
